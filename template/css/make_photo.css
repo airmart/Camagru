@@ -1,0 +1,48 @@
+.super-img {
+    padding: 2px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.super-img:hover {
+    border-radius: 6px;
+    border: 1px solid orange;
+    padding: 1px;
+}
+
+.made-img-block {
+    padding: 0 6px 0 6px !important;
+    text-align: end;
+}
+
+.delete-made-img-block {
+    color: var(--delete-color);
+    font-size: 24px;
+    cursor: pointer;
+    padding-right: 4px;
+}
+
+.delete-made-img-block:hover {
+    color: red;
+}
+
+.made-img-col {
+    display: none;
+}
+
+.video {
+    width: 100%;
+}
+
+.super-img-canvas {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    touch-action: none;
+}
+
+@media (max-width: 1199px) {
+    .made-img-col {
+        margin-top: 15px;
+    }
+}

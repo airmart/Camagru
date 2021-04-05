@@ -1,0 +1,37 @@
+@import url("variables.css");
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("/template/images/website-background-base.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding-bottom: 96px;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: var(--a-color);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: var(--a-color-hover);
+    text-decoration: none;
+}
+
+.container {
+    border-radius: 10px;
+    margin-top: 34px;
+    background-color: rgba(249, 249, 249, 0.7);
+    padding: 1rem;
+}
